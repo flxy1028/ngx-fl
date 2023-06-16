@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "migration-v16": {
+      "version": "15",
+      "description": "Updates ngx-fl to 15",
+      "factory": "./ng-update/index#updateToV7"
+    }
+  }
+}

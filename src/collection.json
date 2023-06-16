@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ngx-fl": {
+      "description": "A blank schematic.",
+      "factory": "./ngx-fl/index#ngxFl"
+    },
+    "ng-add": {
+      "description": "A blank schematic.",
+      "factory": "./ng-add/index#ngAdd"
+    },
+    "ng-update": {
+      "description": "A blank schematic.",
+      "factory": "./ng-update/index#ngUpdate"
+    }
+  }
+}
